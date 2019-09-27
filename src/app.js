@@ -56,35 +56,35 @@ app.get('/products', (req, res)=>{
 app.get('', (req, res) => {
   res.render('index',{
     'title': 'Weather App',
-    'name': 'MEEE'
+    'name': 'Jiaying Chen'
   })
 })
 
 app.get('/about', (req, res) => {
   res.render('about',{
     'title': 'Weather App',
-    'name': 'MEEE'
+    'name': 'Jiaying Chen'
   })
 })
 
 app.get('/help', (req, res) => {
   res.render('help',{
     'title': 'Help',
-    'name': 'MEEE'
+    'name': 'Jiaying Chen'
   })
 })
 
 app.get('/help/*', (req, res) => {
   res.render('notFound',{
     'errorMessage': 'Help article not found',
-    'name': 'MEEE'
+    'name': 'Jiaying Chen'
   })
 })
 
 app.get('*', (req, res)=>{
   res.render('notFound',{
     'errorMessage': 'Page not found',
-    'name': 'MEEE'
+    'name': 'Jiaying Chen'
   })
 })
 
